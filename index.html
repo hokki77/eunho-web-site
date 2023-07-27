@@ -3,16 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eunho</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        table{
+            width: 200px; height: 200px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: auto; margin-right: auto;
+        }
+        th,td{
+            border: 1px solid orange;
+            padding: 8px;
+        }
+        thead{
+            height: 30px;
+        }
+        th{
+            font-size: 10px;
+        }
+        tbody{
+            font-size: 3px;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Your shopping cart</h1>
-    <div id="b">
-        <div class="a">Sony <br> FE 70-200 mm F2.8 GM OSS</div>
-        <div class="a">Sony <br> Sonnar T* E 24 mm F1.8 Z A</div>
-    </div>
-    <a href="https://www.google.co.kr/?hl=ko" id="c" target="_blank">Edit your shopping cart</a>
-    <input type="button" value="Choose payment method" id="d">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">OP.GG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standing <br>Team/Player</td> 
+                <td>Schedule <br>2023.7.27.목</td>
+            </tr>
+            <tr>
+                <td>KT</td> 
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td>GEN</td> 
+            </tr>
+            <tr>
+                <td>HLE</td> 
+            </tr>
+            <tr>
+                <td>DK</td> <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td>T1</td> 
+            </tr>
+            <tr>
+                <td>BRO</td> 
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

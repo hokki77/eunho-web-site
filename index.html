@@ -5,60 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table{
-            width: 200px; height: 200px;
-            border: 1px solid black;
-            border-collapse: collapse;
-            margin-left: auto; margin-right: auto;
+        h1{
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            text-align: center;
         }
-        th,td{
-            border: 1px solid orange;
-            padding: 8px;
+        #grid ol{
+            border-right: 1px solid gray;
+            width: 80px;
+            margin: 0px; 
+            padding-left: 35px; padding-top: 5px; 
         }
-        thead{
-            height: 30px;
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 250px;
         }
-        th{
-            font-size: 10px;
+        #in{
+            margin-left: 0px;
         }
-        tbody{
-            font-size: 3px;
-        }
-        
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th colspan="2">OP.GG</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Standing <br>Team/Player</td> 
-                <td>Schedule <br>2023.7.27.목</td>
-            </tr>
-            <tr>
-                <td>KT</td> 
-                <td rowspan="3"></td>
-            </tr>
-            <tr>
-                <td>GEN</td> 
-            </tr>
-            <tr>
-                <td>HLE</td> 
-            </tr>
-            <tr>
-                <td>DK</td> <td rowspan="3"></td>
-            </tr>
-            <tr>
-                <td>T1</td> 
-            </tr>
-            <tr>
-                <td>BRO</td> 
-            </tr>
-        </tbody>
-    </table>
+    <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div id="in">
+            <h2>WEB</h2>
+            <p>Information that is about WEB Information that is about WEB Information that is about WEB Information that is about WEB Information that is about WEB Information that is about WEB Information that is about WEB</p>
+        </div>
+    </div>
 </body>
 </html>
